@@ -1,0 +1,5 @@
+Installation
+------------
+ * Copy the files in this directory into app/plugins/smart_redirect
+ * Include the auto_return component in your app_controller.php:
+	var $components = array('SmartRedirect.AutoReturn');
